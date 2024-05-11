@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    //moduleResolution: "node" allows us to use import statements to import modules instead of require.
+    "allowSyntheticDefaultImports": true,
+    //allowSyntheticDefaultImports: true allows default imports from modules with no default export.
+    //We don't need to write * as default anymore.
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
