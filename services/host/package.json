@@ -1,0 +1,12 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@packages/shared": "*",
+    "@packages/build-config": "*"
+  }
+}
